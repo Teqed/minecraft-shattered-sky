@@ -17,7 +17,7 @@ Definition list for shorthand used in this README.md.
 * simpledifficulty/armorTemperatures.json - Armor that should offer temperature resistance are configured here.
 * simpledifficulty/blockTemperatures.json - Blocks that should generate heat for SD can be added here. Vanilla, HC and TF blocks are already setup.
 * simpledifficulty/fluidTemepratures.json - Fluids that should have temperature. Only configured for hot_spring_water.
-* simpledifficulty/heldItemTemperatures.json - Held items which should have temperature. Currently used for vanilla, HC and TF
+* simpledifficulty/heldItemTemperatures.json - Held items which should have temperature. Currently used for vanilla, HC and TF items that warm the player.
 * geolosys.cfg - Controls prospectable ore veins.
 * cofh/world/00_minecraft.json - Controls vanilla oregen.
 * cofh/world/01_thermalfoundation_ores.json - Controls copper, tin, silver, lead, nickel, and platinum (currently disabled).
