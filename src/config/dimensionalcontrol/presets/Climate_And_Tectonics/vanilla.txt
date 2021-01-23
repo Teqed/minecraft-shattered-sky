@@ -1,0 +1,559 @@
+
+#	Formating Legend
+
+	#	Temperature Zone
+	
+	#####	Subzone
+	
+	**Humidity Type**
+		****General****
+		<Biome Entry> biome
+			//	Hills
+			<Biome Entry> hill
+			//	Rare
+			<Biome Entry> rare
+			//	Edges
+			<Biome Entry> edge	(Edge Criteria)
+			//	Mountains
+			<Biome Entry> mountain
+			// Mountain Valleys
+			<Biome Entry> mountain valley
+
+
+########################################
+
+
+#	Tropical Zone
+
+#####	Tropical
+
+**Arid**
+	****General****
+	MC Desert
+		//	Hills
+		MC Desert Hills
+		//	Rare
+		
+		//	Edges
+
+		//	Mountains
+		MC Desert M
+		//	Mountain Valleys
+		MC Desert Hills
+	MC Mesa
+		//	Hills
+		MC Mesa Plateau M
+		//	Rare
+		MC Mesa Bryce
+		//	Edges
+		MC Mesa	(Any Mesa <-> Any Non-Mesa)
+		//	Mountains
+		
+		//	Mountain Valleys
+	
+
+**Average**
+	****General****
+	MC Savanna
+		//	Hills
+		MC Savanna M
+		//	Rare
+		MC Savanna Plateau
+		//	Edges
+		
+		//	Mountains
+		MC Savanna Plateau M
+		//	Mountain Valleys
+		MC Savanna
+
+**Humid**
+	****General****
+	MC Jungle
+		//	Hills
+		MC Jungle Hills
+		//	Rare
+		
+		//	Edges
+		MC Jungle Edge	(Jungle <-> Any Non-Jungle)
+		MC Jungle Edge M	(Jungle Hills <-> Any Non-Jungle)
+		//	Mountains
+		MC Jungle M
+		//	Mountain Valleys
+		MC Jungle Hills
+	
+#####	Subtropical
+
+**Arid**
+	****General****
+	MC Savanna
+		//	Hills
+		MC Savanna M
+		//	Rare
+		MC Savanna Plateau
+		//	Edges
+
+		//	Mountains
+		MC Savanna Plateau M
+		//	Mountain Valleys
+		MC Savanna
+	
+**Average**
+	****General****
+	MC Forest
+		//	Hills
+		MC Forest Hills
+		MC Flower Forest
+		//	Rare
+		MC Extreme Hills+
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills+ M
+		//	Mountain Valleys
+		MC Forest Hills
+	MC Plains
+		//	Hills
+		MC Sunflower Plains
+		//	Rare
+		MC Extreme Hills
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills M
+		//	Mountain Valleys
+		MC Plains
+	MC Savanna
+		//	Hills
+		MC Savanna M
+		//	Rare
+		MC Savanna Plateau
+		//	Edges
+		
+		//	Mountains
+		MC Savanna Plateau M
+		//	Mountain Valleys
+		MC Savanna
+
+**Humid**
+	****General****
+	MC Forest
+		//	Hills
+		MC Forest Hills
+		MC Flower Forest
+		//	Rare
+		MC Extreme Hills+
+		//	Edges
+
+		//	Mountains
+		MC Extreme Hills+ M
+		//	Mountain Valleys
+		MC Forest Hills
+	MC Swampland
+		//	Hills
+
+		//	Rare
+		MC Swampland M
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills+ M
+		//	Mountain Valleys
+		MC Forest Hills
+
+
+#	Temperate Zone
+	
+#####	Warm
+
+**Arid**
+	****General****
+	MC Plains
+		//	Hills
+		MC Sunflower Plains
+		//	Rare
+		MC Extreme Hills
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills M
+		//	Mountain Valleys
+		MC Plains
+
+**Average**
+	****General****
+	MC Forest
+		//	Hills
+		MC Forest Hills
+		MC Flower Forest
+		//	Rare
+		MC Extreme Hills+
+		//	Edges
+
+		//	Mountains
+		MC Extreme Hills+ M
+		//	Mountain Valleys
+		MC Forest Hills
+	MC Plains
+		//	Hills
+		MC Sunflower Plains
+		//	Rare
+		MC Extreme Hills
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills M
+		//	Mountain Valleys
+		MC Plains
+**Humid**
+	****General****
+	MC Forest
+		//	Hills
+		MC Forest Hills
+		MC Flower Forest
+		//	Rare
+		MC Extreme Hills+
+		//	Edges
+
+		//	Mountains
+		MC Extreme Hills+ M
+		//	Mountain Valleys
+		MC Forest Hills
+	MC Swampland
+		//	Hills
+		
+		//	Rare
+		MC Swampland M
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills+ M
+		//	Mountain Valleys
+		MC Swampland M
+
+
+#####	Cool
+
+**Arid**
+	****General****
+	MC Plains
+		//	Hills
+		MC Sunflower Plains
+		//	Rare
+		MC Extreme Hills
+		//	Edges
+
+		//	Mountains
+		MC Extreme Hills M
+		//	Mountain Valleys
+		MC Plains
+	
+**Average**
+	****General****
+	MC Birch Forest
+		//	Hills
+		MC Birch Forest Hills
+		//	Rare
+		MC Birch Forest M
+		//	Edges
+		
+		//	Mountains
+		MC Birch Forest Hills M
+		//	Mountain Valleys
+		MC Birch Forest Hills
+	MC Forest
+		//	Hills
+		MC Forest Hills
+		//	Rare
+		MC Flower Forest
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills+ M
+		//	Mountain Valleys
+		MC Forest Hills
+	MC Plains
+		//	Hills
+		
+		//	Rare
+		MC Sunflower Plains
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills M
+		//	Mountain Valleys
+		MC Plains
+	MC Roofed Forest
+		//	Hills
+		MC Extreme Hills+
+		//	Rare
+		
+		//	Edges
+		
+		//	Mountains
+		MC Roofed Forest M
+		//	Mountain Valleys
+		MC Roofed Forest
+	MC Taiga
+		//	Hills
+		MC Taiga Hills
+		//	Rare
+		
+		//	Edges
+		
+		//	Mountains
+		MC Taiga M
+		//	Mountain Valleys
+		MC Taiga
+
+**Humid**
+	****General****
+	MC Birch Forest
+		//	Hills
+		MC Birch Forest Hills
+		//	Rare
+		MC Birch Forest M
+		//	Edges
+		
+		//	Mountains
+		MC Birch Forest Hills M
+		//	Mountain Valleys
+		MC Birch Forest Hills
+	MC Forest
+		//	Hills
+		MC Forest Hills
+		//	Rare
+		MC Flower Forest
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills+ M
+		//	Mountain Valleys
+		MC Forest Hills
+	MC Roofed Forest
+		//	Hills
+		MC Extreme Hills+
+		//	Rare
+		
+		//	Edges
+		
+		//	Mountains
+		MC Roofed Forest M
+		//	Mountain Valleys
+		// MC Roofed Forest
+	MC Swampland
+		//	Hills
+		
+		//	Rare
+		MC Swampland M
+		//	Edges
+		
+		//	Mountains
+		MC Extreme Hills+ M
+		//	Mountain Valleys
+		MC Swampland M
+	MC Taiga
+		//	Hills
+		MC Taiga Hills
+		//	Rare
+		
+		//	Edges
+		
+		//	Mountains
+		MC Taiga M
+		//	Mountain Valleys
+		MC Taiga
+
+
+##### 	Boreal
+
+**Arid**
+	****General****
+	MC Mega Taiga
+		//	Hills
+		MC Mega Taiga Hills
+		//	Rare
+		MC Mega Spruce Taiga
+		//	Edges
+
+		//	Mountains
+		MC Redwood Taiga Hills M
+		//	Mountain Valleys
+		MC Mega Taiga
+
+**Average**
+	****General****
+	MC Birch Forest
+		//	Hills
+		MC Birch Forest Hills
+		//	Rare
+		MC Birch Forest M
+		//	Edges
+
+		//	Mountains
+		MC Birch Forest Hills M
+		//	Mountain Valleys
+		MC Birch Forest Hills
+	MC Mega Taiga
+		//	Hills
+		MC Mega Taiga Hills
+		//	Rare
+		MC Mega Spruce Taiga
+		//	Edges
+		
+		//	Mountains
+		MC Redwood Taiga Hills M
+		//	Mountain Valleys
+		MC Mega Taiga
+	MC Roofed Forest
+		//	Hills
+		MC Extreme Hills+
+		//	Rare
+		
+		//	Edges
+
+		//	Mountains
+		MC Roofed Forest M
+		//	Mountain Valleys
+		MC Roofed Forest
+	MC Taiga
+		//	Hills
+		MC Taiga Hills
+		//	Rare
+		
+		//	Edges
+
+		//	Mountains
+		MC Taiga M
+		//	Mountain Valleys
+		MC Taiga
+**Humid**
+	****General****
+	MC Birch Forest
+		//	Hills
+		MC Birch Forest Hills
+		//	Rare
+		MC Birch Forest M
+		//	Edges
+		
+		//	Mountains
+		MC Birch Forest Hills M
+		//	Mountain Valleys
+		MC Birch Forest Hills
+	MC Roofed Forest
+		//	Hills
+		MC Extreme Hills+
+		//	Rare
+		
+		//	Edges
+
+		//	Mountains
+		MC Roofed Forest M
+		//	Mountain Valleys
+		MC Roofed Forest
+	MC Taiga
+		//	Hills
+		MC Taiga Hills
+		//	Rare
+		
+		//	Edges
+
+		//	Mountains
+		MC Taiga M
+		//	Mountain Valleys
+		MC Taiga
+	
+
+	
+#	Polar Zone
+Frigid through the whole year
+
+##### 	Subpolar
+
+**Humid**
+	****General****
+	MC Cold Taiga
+		//	Hills
+		MC Cold Taiga Hills
+		//	Rare
+
+		//	Edges
+
+		//	Mountains
+		MC Cold Taiga M
+		//	Mountain Valleys
+		MC Cold Taiga
+
+**Average**
+	****General****
+	MC Cold Taiga
+		//	Hills
+		MC Cold Taiga Hills
+		//	Rare
+		
+		//	Edges
+
+		//	Mountains
+		MC Cold Taiga M
+		//	Mountain Valleys
+		MC Cold Taiga
+
+**Arid**
+	****General****
+	MC Cold Taiga
+		//	Hills
+		MC Cold Taiga Hills
+		//	Rare
+		
+		//	Edges
+
+		//	Mountains
+		MC Cold Taiga M
+		//	Mountain Valleys
+		MC Cold Taiga
+	
+
+##### 	Polar
+
+**Humid**
+	****General****
+	MC Ice Plains
+		//	Hills
+		
+		//	Rare
+		MC Ice Plains Spikes
+		//	Edges
+
+		//	Mountains
+		MC Ice Mountains
+		//	Mountain Valleys
+		MC Ice Plains
+
+**Average**
+	****General****
+	MC Ice Plains
+		//	Hills
+		
+		//	Rare
+		MC Ice Plains Spikes
+		//	Edges
+		
+		//	Mountains
+		MC Ice Mountains
+		//	Mountain Valleys
+		MC Ice Plains
+
+**Arid**
+	****General****
+	MC Ice Plains
+		//	Hills
+		
+		//	Rare
+		MC Ice Plains Spikes
+		//	Edges
+
+		//	Mountains
+		MC Ice Mountains
+		//	Mountain Valleys
+		MC Ice Plains
+
+
