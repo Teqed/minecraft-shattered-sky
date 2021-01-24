@@ -12,21 +12,21 @@ Definition list for shorthand used in this README.md.
 * **SD** - SimpleDifficulty (replaces TAN)
 * **AE2** - Applied Energistics 2
 * **BOP** - Biomes O Plenty
-* **PvJ** - Project: Vibrant Journeys
+* **PVJ** - Project: Vibrant Journeys
 
 
 ## Notable Config files
 
-* simpledifficulty/armorTemperatures.json - Armor that should offer temperature resistance are configured here.
-* simpledifficulty/blockTemperatures.json - Blocks that should generate heat for SD can be added here. Vanilla, HC, ThF, and Lycanites Mobs blocks are already setup.
-* simpledifficulty/fluidTemepratures.json - Fluids that should have temperature. Only configured for hot_spring_water.
-* simpledifficulty/heldItemTemperatures.json - Held items which should have temperature. Currently used for vanilla, HC and TF items that warm the player.
-* geolosys.cfg - Controls prospectable ore veins. This config is disabling vanilla oregen.
-* cofh/world/00_minecraft.json - Controls vanilla oregen.
-* cofh/world/01_thermalfoundation_ores.json - Controls copper, tin, silver, lead, nickel, and platinum (currently disabled).
-* cofh/world/04_overworld_ores.json - Controls AE2 quartz, Forestry apatite (disabled), TF aluminum, and TF iridium.
-* harvestcraft_fruittree.cfg - Controls which biomes fruit trees spawn in. Setup for vanilla and BOP.
-* familiarfauna/butterfly_biomes.json - Controls which biomes butterflies spawn in. Setup for vanilla, BOP, Traverse and TwF.
+* *simpledifficulty/armorTemperatures.json* - Armor that should offer temperature resistance are configured here.
+* *simpledifficulty/blockTemperatures.json* - Blocks that should generate heat for SD can be added here. Vanilla, HC, ThF, and Lycanites Mobs blocks are already setup.
+* *simpledifficulty/fluidTemepratures.json* - Fluids that should have temperature. Only configured for hot_spring_water.
+* *simpledifficulty/heldItemTemperatures.json* - Held items which should have temperature. Currently used for vanilla, HC and TF items that warm the player.
+* *geolosys.cfg* - Controls prospectable ore veins. This config is disabling vanilla oregen.
+* *cofh/world/00_minecraft.json* - Controls vanilla oregen.
+* *cofh/world/01_thermalfoundation_ores.json* - Controls copper, tin, silver, lead, nickel, and platinum (currently disabled).
+* *cofh/world/04_overworld_ores.json* - Controls AE2 quartz, Forestry apatite (disabled), TF aluminum, and TF iridium.
+* *harvestcraft_fruittree.cfg* - Controls which biomes fruit trees spawn in. Setup for vanilla and BOP.
+* *familiarfauna/butterfly_biomes.json* - Controls which biomes butterflies spawn in. Setup for vanilla, BOP, Traverse and TwF.
 
 ## Dimension Registry Analysis
 Info about the various dimensions in the pack. 
@@ -219,6 +219,28 @@ available.
 | quark                 | 720     | 0.001%      |
 
 Results with Utilization =< 0.001% have been omitted.
+
+# Load Time Info
+
+| Mod                                                | Total Time |
+|----------------------------------------------------|------------|
+| Thaumcraft                                         | 19.095s    |
+| Tinkers' Construct                                 | 8.389s     |
+| Immersive Engineering                              | 4.48s      |
+| Astral Sorcery                                     | 3.851s     |
+| Quark                                              | 3.685s     |
+| Ender IO                                           | 3.587s     |
+| Applied Energistics 2                              | 2.633s     |
+| Animania                                           | 1.992s     |
+| Lycanites Mobs                                     | 1.786s     |
+| LibrarianLib Stage 2                               | 1.53s      |
+| Village Names                                      | 1.304s     |
+| Thermal Expansion                                  | 1.151s     |
+| OpenBlocks                                         | 1.053s     |
+| Biomes O' Plenty                                   | 1.045s     |
+| Tetra                                              | 1.012s     |
+
+Results with Total Time =< 1s have been omitted.
 
 ## Contributors
 
