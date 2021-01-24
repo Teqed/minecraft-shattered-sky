@@ -20,7 +20,7 @@ Definition list for shorthand used in this README.md.
 ### Temperature (TAN / SD)
 * **simpledifficulty/armorTemperatures.json** - Temperature resistance of armor.
 * **simpledifficulty/blockTemperatures.json** - Temperature of blocks. Vanilla, HC, ThF, and Lycanites Mobs blocks are already setup.
-* **simpledifficulty/fluidTemepratures.json** - Temperature of fluids. Only configured for hot_spring_water.
+* **simpledifficulty/fluidTemperatures.json** - Temperature of fluids. Only configured for hot_spring_water.
 * **simpledifficulty/heldItemTemperatures.json** - Temperature of held items. Currently used for vanilla, HC and TF items that warm the player.
 
 ### Oregen
