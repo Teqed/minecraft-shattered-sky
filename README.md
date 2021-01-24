@@ -17,16 +17,38 @@ Definition list for shorthand used in this README.md.
 
 ## Notable Config files
 
-* *simpledifficulty/armorTemperatures.json* - Armor that should offer temperature resistance are configured here.
-* *simpledifficulty/blockTemperatures.json* - Blocks that should generate heat for SD can be added here. Vanilla, HC, ThF, and Lycanites Mobs blocks are already setup.
-* *simpledifficulty/fluidTemepratures.json* - Fluids that should have temperature. Only configured for hot_spring_water.
-* *simpledifficulty/heldItemTemperatures.json* - Held items which should have temperature. Currently used for vanilla, HC and TF items that warm the player.
-* *geolosys.cfg* - Controls prospectable ore veins. This config is disabling vanilla oregen.
-* *cofh/world/00_minecraft.json* - Controls vanilla oregen.
-* *cofh/world/01_thermalfoundation_ores.json* - Controls copper, tin, silver, lead, nickel, and platinum (currently disabled).
-* *cofh/world/04_overworld_ores.json* - Controls AE2 quartz, Forestry apatite (disabled), TF aluminum, and TF iridium.
-* *harvestcraft_fruittree.cfg* - Controls which biomes fruit trees spawn in. Setup for vanilla and BOP.
-* *familiarfauna/butterfly_biomes.json* - Controls which biomes butterflies spawn in. Setup for vanilla, BOP, Traverse and TwF.
+### Temperature (TAN / SD)
+* **simpledifficulty/armorTemperatures.json** - Temperature resistance of armor.
+* **simpledifficulty/blockTemperatures.json** - Temperature of blocks. Vanilla, HC, ThF, and Lycanites Mobs blocks are already setup.
+* **simpledifficulty/fluidTemepratures.json** - Temperature of fluids. Only configured for hot_spring_water.
+* **simpledifficulty/heldItemTemperatures.json** - Temperature of held items. Currently used for vanilla, HC and TF items that warm the player.
+
+### Oregen
+* **geolosys.cfg** - Oregen for prospectable veins. This config is disabling vanilla oregen.
+* **cofh/world/00_minecraft.json** - Oregen for vanilla.
+* **cofh/world/01_thermalfoundation_ores.json** - Oregen for copper, tin, silver, lead, nickel, and platinum (currently disabled).
+* **cofh/world/04_overworld_ores.json** - Oregen for AE2 quartz, Forestry apatite (disabled), TF aluminum, and TF iridium.
+* **Bewitchment.cfg** - Oregen for Bewitchment. Generates amethyst, garnet, opal, salt, and silver. Structuregen for cambion homes, menhir, stone circles and wickermen.
+
+### Biomes
+* **harvestcraft_fruittree.cfg** - Biomes fruit trees spawn in. Setup for vanilla and BOP.
+* **familiarfauna/butterfly_biomes.json** - Biomes butterflies spawn in. Setup for vanilla, BOP, Traverse and TwF.
+
+### Spawnrates
+* **exoticbirds.cfg** - Spawnrates for birds.
+* **bloodmoon.cfg** - Spawnrates for Blood Moon, occurrence frequency and other.
+* **champions.cfg** - Spawnrates for Champions.
+* **infernalmobs.cfg** - Spawnrates for Infernal mobs.
+* **ice_and_fire.cfg** - Spawnrates for Ice & Fire mobs.
+
+### Other
+* **bettercaves-1_12_2.cfg** - Worldgen for caves.
+* **AppliedEnergistics2/AppliedEnergistics2.cfg** - Worldgen for meteors.
+* **carryon.cfg** - Blacklist items or entities that cannot be picked up.
+* **hardcoredarkness.cfg** - Intensity of moonlight. Minimum 0.05 moonlight.
+* **horsepower.cfg** - Whitelisted entities for horsepower. Grindstone and chopping block recipes.
+* **jei/itemBlacklist.cfg** - Blacklist items to prevent from showing in JEI. Primarly conceals facades and creative-only items.
+
 
 ## Dimension Registry Analysis
 Info about the various dimensions in the pack. 
