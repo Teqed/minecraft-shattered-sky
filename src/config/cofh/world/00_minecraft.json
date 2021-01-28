@@ -117,7 +117,6 @@
 			}
 		},
 		
-// BIOME SPECIFIC GENERATIONS // BIOME SPECIFIC GENERATIONS // BIOME SPECIFIC GENERATIONS //
 
 		"coal_biome": {
 			"distribution": "uniform",
@@ -319,8 +318,6 @@
 				]
 			}
 		},
-
-// END EDITS //
 		
 		"coal_uniform": {
 			"distribution": "uniform",
@@ -454,7 +451,7 @@
 			}
 		},
 
-		"redstone": {
+		"redstone_cave": {
 			"distribution": "cave",
 			"generator": {
 				"block": "redstone_ore",
@@ -477,7 +474,7 @@
 			}
 		},
 
-		"diamond": {
+		"diamond_cave": {
 			"distribution": "cave",
 			"generator": {
 				"block": "diamond_ore",
@@ -500,7 +497,7 @@
 			}
 		},
 
-		"lapis": {
+		"lapis_gaussian": {
 			"distribution": "gaussian",
 			"generator": {
 				"block": "lapis_ore",
