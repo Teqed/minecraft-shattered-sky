@@ -2,6 +2,9 @@
 
 Configurations for the Shattered Sky community modpack for Minecraft.
 
+Check the wiki for more information.
+https://github.com/Teqed/minecraft-shattered-sky/wiki
+
 ## Abbreviations and Acronyms
 Definition list for shorthand used in this README.md.
 
