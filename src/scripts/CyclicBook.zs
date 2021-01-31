@@ -1,0 +1,1 @@
+recipes.addShapeless(<guideapi:cyclicmagic-guide>, [<minecraft:book>,<ore:slimeball>]);

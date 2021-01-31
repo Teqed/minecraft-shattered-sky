@@ -1,0 +1,10 @@
+<ore:ingotAluminum>.add(<erebus:materials:42>);
+<ore:oreAluminum>.add(<erebus:ore_aluminium>);
+<ore:ingotTin>.add(<erebus:materials:46>);
+<ore:oreTin>.add(<erebus:ore_tin>);
+<ore:ingotSilver>.add(<erebus:materials:45>);
+<ore:oreSilver>.add(<erebus:ore_silver>);
+<ore:ingotCopper>.add(<erebus:materials:43>);
+<ore:oreCopper>.add(<erebus:ore_copper>);
+<ore:ingotLead>.add(<erebus:materials:44>);
+<ore:orelead>.add(<erebus:ore_lead>);
